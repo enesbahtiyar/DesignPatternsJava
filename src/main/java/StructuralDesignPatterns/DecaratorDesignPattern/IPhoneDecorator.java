@@ -13,16 +13,16 @@ public class IPhoneDecorator implements Phone
 
     @Override
     public String getName() {
-        return null;
+        return "IPhone";
     }
 
     @Override
     public int cameraCount() {
-        return 0;
+        return 2;
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return 350;
     }
 }
